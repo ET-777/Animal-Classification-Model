@@ -1,7 +1,15 @@
-Animal Image Classification with CNN
+Animal Image Classification with a Convolutional Neural Network (CNN)
 -----------------------
 
-Predict, out of 10 animal classes, to which class an animal image belongs to. The images are of medium quality and the model uses convolutional neural networks. Dataset is [here](https://www.kaggle.com/datasets/alessiocorrado99/animals10).
+Deep network for animal image classification. This is a multiclass classification task: Out of 10 animal classes, it predicts to which of them an animal image belongs to. The network consists of several convolutional neural layers with normalized data. The animal images are 28k medium quality images taken from search engines. Dataset is [here](https://www.kaggle.com/datasets/alessiocorrado99/animals10). You can see the data processing, model code, and full explanations in the `AnimalClassification.ipynb` notebook above.
+
+Quick Overview
+----------------------
+
+
+
+Results
+----------------------
 
 Installation
 ----------------------
@@ -10,7 +18,7 @@ Installation
 
 * Clone this repo to your computer.
 * Create a `Data` folder in the project directory
-* Create a `train` and `test` folder in the `data` directory
+* Create a `train` and `test` folder in the `Data` directory
 * Download the data files from Kaggle into the `Data` folder.  
     * You can find the data [here](https://www.kaggle.com/datasets/alessiocorrado99/animals10).
     * You'll need to register with Kaggle to download the data.
@@ -28,4 +36,4 @@ Usage
 
 * Open `AnimalClassification.ipynb` with `Jupyter Notebook`.
 * Run the notebook
-    * Make sure you are using `tensorflow` with a `GPU`.
+    * Make sure you are running `tensorflow` with a `GPU`.
